@@ -68,6 +68,9 @@ int main() {
     else if (strcmp(input, "print") == 0) {
       print(graph);
     }
+    else if(strcmp(input, "quit") == 0) {
+      run = false;
+    }
   }
 }
 
